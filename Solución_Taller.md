@@ -4,7 +4,7 @@
 
 ## SECCIÓN A: Fundamentos Lógicos
 
-### 1. Evaluación Aritmética
+### 1. Evaluación de Motor Aritmética
 
 **Expresión:**
 resultado <- 5 + 3 * 2 ^ 2 - (10 MOD 3)
