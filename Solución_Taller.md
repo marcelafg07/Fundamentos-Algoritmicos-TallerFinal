@@ -65,10 +65,15 @@ Algoritmo SelectorCandidatos
 FinAlgoritmo
 
 
+## SECCIÓN B: Logica de Rendimiento
+
 
 Algoritmo Nomina
+
     Definir nombre_operador Como Cadena
+    
     Definir horas Como Entero
+    
     Definir tarifa, subtotal, extra, deducciones, neto Como Real
 
     tarifa <- 35000
@@ -102,6 +107,7 @@ Algoritmo Nomina
     Escribir "Salario Bruto: ", subtotal
     Escribir "Deducciones: ", deducciones
     Escribir "Salario Neto: ", neto
+    
 FinAlgoritmo
 
 
