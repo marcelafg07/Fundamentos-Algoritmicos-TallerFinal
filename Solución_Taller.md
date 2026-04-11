@@ -115,4 +115,57 @@ Algoritmo Nomina
 FinAlgoritmo
 
 
+## Desarrollo de Software 
+
+
+
+ Algoritmo CajeroCrypto
+
+    Definir saldo, retiro, compra, btc Como Real
+    Definir opcion Como Entero
+
+    saldo <- 5000
+
+    Escribir "=== TERMINAL CRIPTO ==="
+    Escribir "1. Consultar saldo"
+    Escribir "2. Retirar"
+    Escribir "3. Comprar BTC"
+    Escribir "4. Salir"
+    Leer opcion
+
+    Segun opcion Hacer
+        1:
+            Escribir "Saldo actual: ", saldo
+
+        2:
+            Escribir "Ingrese monto:"
+            Leer retiro
+            Si retiro > saldo Entonces
+                Escribir "ERROR: Fondos insuficientes"
+            Sino
+                saldo <- saldo - retiro
+                Escribir "Retiro exitoso"
+            FinSi
+
+        3:
+            Escribir "Ingrese monto a invertir:"
+            Leer compra
+            Si compra > saldo Entonces
+                Escribir "Fondos insuficientes"
+            Sino
+                btc <- compra / 60000
+                saldo <- saldo - compra
+                Escribir "BTC comprado: ", btc
+            FinSi
+
+        4:
+            Escribir "Sesion finalizada"
+
+        De Otro Modo:
+            Escribir "ERROR: Opcion invalida"
+    FinSegun
+FinAlgoritmo
+
+
+
 
