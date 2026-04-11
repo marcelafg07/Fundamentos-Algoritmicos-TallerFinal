@@ -48,10 +48,13 @@ Falso
 
 ---
 
-### 3. Depuracion de software ( Debugging código corregido)
+### 3. Depuracion de software (código corregido)
+
 
 Algoritmo SelectorCandidatos
+
     Definir estatura_ingresada Como Real
+    
     Definir peso_ingresado Como Real
 
     Leer estatura_ingresada
@@ -66,6 +69,7 @@ FinAlgoritmo
 
 
 ## SECCIÓN B: Logica de Rendimiento
+
 
 
 Algoritmo Nomina
